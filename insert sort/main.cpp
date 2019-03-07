@@ -13,7 +13,7 @@ void swap(int *a, int *b)
 	*b = temp;
 }
 
-void insertSort(int a[], int size)
+void insertSort(int a[], int size)  // 시간 복잡도 : O(n^2)
 {
 	int temp;
 

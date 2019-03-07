@@ -13,7 +13,7 @@ void swap(int *a, int *b)
 	*b = temp;
 }
 
-int main(){
+int main(){  // selection sort 시간 복잡도 : O(n^2)
 	int n, min, index;
 	scanf("%d", &n);
 	for (int i = 0; i < n; i++){

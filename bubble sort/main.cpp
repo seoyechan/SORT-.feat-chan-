@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS 
 #include <stdio.h>
 #include <limits.h>
 #include <iostream>
@@ -13,7 +13,7 @@ void swap(int *a, int *b)
 	*b = temp;
 }
 
-void BubbleSort(int a[], int size)
+void BubbleSort(int a[], int size) // 시간 복잡도 : O(n^2)
 {
 	printf("<<<<<<<<<<< Bubble Sort 시작 >>>>>>>>>>>>");
 	for (int i = size - 1; i > 0; i--){
